@@ -1,0 +1,104 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url("../img/marioBlock.png");
+    background-size: 128px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+}
+
+.corrente {
+    background-image: url("../img/chain.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 3rem;  
+    left: 1rem;
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 3rem;
+    z-index: -1;
+}
+
+.corrente:nth-child(2) {
+    left: auto;
+    right: 1rem;
+}
+
+.calculadora {
+    background-color: #004369;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.calculadora__titulo {
+    color: #e5ddc8;
+    text-align: center;
+    width: 100%;
+}
+
+.calculadora__opcoes {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 .5rem;
+    width: 100%;
+}
+
+.calculadora__entrada {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 .5rem;
+    width: 70%;
+}
+
+.calculadora__efetua-conversao {
+    background-color: #db1f48;
+    color: #e5ddc8;
+    cursor: pointer;
+    font-family: 'Silkscreen', cursive;
+    font-size: .8rem;
+    height: 3rem;
+    transition: background-color 200ms, transform 10ms;
+    width: calc(30% - 1rem);
+}
+
+.calculadora__efetua-conversao:hover {
+    background-color: #e5ddc8;
+    color: #db1f48;
+}
+
+.calculadora__efetua-conversao:active {
+    transform: scale(0.95);
+}
+
+.calculadora__saida {
+    cursor: not-allowed;
+    color: #01949a;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 .5rem;
+    width: 100%;
+}
+
+.calculadora__saida--bitcoin {
+    color: #ceaf02;
+}
