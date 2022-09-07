@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body class="wrapper">
+
+    <main class="container">
+        <div class="corrente"></div>
+        <div class="corrente"></div>
+        <div class="calculadora">
+            <h2 class="calculadora__titulo">Conversão</h2>
+            <select class="calculadora__opcoes" name="" id="">
+                <option class="calculadora__opcao" value="r-d">Real para Dólar e BTC</option>
+                <option class="calculadora__opcao" value="d-r">Dólar para Real e BTC</option>
+            </select>
+            <input class="calculadora__entrada" type="text" placeholder="0">
+            <button class="calculadora__efetua-conversao" type="button">Calcular</button>
+            <input class="calculadora__saida calculadora__saida--moeda" type="text" placeholder="0" readonly>
+            <input class="calculadora__saida calculadora__saida--bitcoin" type="text" placeholder="0" readonly>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
