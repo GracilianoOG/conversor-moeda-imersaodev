@@ -28,7 +28,7 @@ Por motivos de tempo e preferencia, alguns desafios podem não estarem inclusos.
 
 Projeto feito no segundo dia da Imersão Dev da Alura.
 
-📚 [Fonte principal](https://fonts.google.com/specimen/Press+Start+2P?preview.text=Super%20Mario&preview.text_type=custom)
-📚 [Fonte secundária](https://fonts.google.com/specimen/Silkscreen?preview.text=Super%20Mario&preview.text_type=custom)
-📚 [Imagem dos tijolos](https://pixabay.com/pt/vectors/padronizar-super-mario-pixel-art-1929506/)
-📚 [Paleta](https://www.canva.com/colors/color-palettes/facing-forward/)
+* 📚 [Fonte principal](https://fonts.google.com/specimen/Press+Start+2P?preview.text=Super%20Mario&preview.text_type=custom)
+* 📚 [Fonte secundária](https://fonts.google.com/specimen/Silkscreen?preview.text=Super%20Mario&preview.text_type=custom)
+* 📚 [Imagem dos tijolos](https://pixabay.com/pt/vectors/padronizar-super-mario-pixel-art-1929506/)
+* 📚 [Paleta](https://www.canva.com/colors/color-palettes/facing-forward/)
